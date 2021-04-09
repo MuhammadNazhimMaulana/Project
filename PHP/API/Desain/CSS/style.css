@@ -1,0 +1,24 @@
+/* Jumbotron */
+
+.jumbotron{
+    padding-top: 5rem;
+    background-color: #e2edff;
+}
+
+#project{
+    background-color: #e2edff;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    padding-top: 5rem;
+}
+
+.NewsGrid{
+    margin: 10px;
+    border: 1px solid lightgrey;
+}
