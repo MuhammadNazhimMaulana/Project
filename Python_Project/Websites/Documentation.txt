@@ -1,0 +1,1 @@
+Disini Berisi dengan segala hasil praktikum pembuatan website dengan menggunakan django itu sendiri
