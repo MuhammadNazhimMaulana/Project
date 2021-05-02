@@ -1,0 +1,19 @@
+RewriteEngine on
+
+# ini untuk get, post, put dan delete
+RewriteRule ^barang?$ v2/api/barang.php 
+RewriteRule ^customer?$ v2/api/customer.php 
+RewriteRule ^jenis_barang?$ v2/api/jenis_barang.php 
+RewriteRule ^pengiriman?$ v2/api/pengiriman.php 
+RewriteRule ^supplier?$ v2/api/supplier.php 
+RewriteRule ^transaksi?$ v2/api/transaksi.php 
+RewriteRule ^transportasi?$ v2/api/transportasi.php
+
+# ini untuk get berdasarkan id
+RewriteRule ^barang/([0-9]+) v2/api/barang.php?id_barang=$1 
+RewriteRule ^customer/([0-9]+) v2/api/customer.php?id_cst=$1 
+RewriteRule ^jenis_barang/([0-9]+) v2/api/jenis_barang.php?id_jns_barang=$1 
+RewriteRule ^pengiriman/([0-9]+) v2/api/pengiriman.php?id_kirim=$1 
+RewriteRule ^supplier/([0-9]+) v2/api/supplier.php?id_supplier=$1 
+RewriteRule ^transaksi/([0-9]+) v2/api/transaksi.php?id_transaksi=$1 
+RewriteRule ^transportasi/([0-9]+) v2/api/transportasi.php?id_transportasi=$1 
